@@ -1,0 +1,4 @@
+This is a WordPress plugin to add qTranslate support to the Disqus comments plugin by allowing you to register a separate website for each language in a single WordPress installation.
+
+### Installation
+Download the PHP file and put it to your wp-content/plugins directory. Then, go to the WordPress console and activate the plugin. After you've done that, you'll need to set up Disqus. If it has already been set up before, reset it by going to its settings and clicking the "Reset" button; you won't lose any comments by doing so. The plugin will then ask you to log in with your Disqus account and choose a website identity. Do this for each of your languages and be sure to create a website for each one in the Disqus' admin panel.
