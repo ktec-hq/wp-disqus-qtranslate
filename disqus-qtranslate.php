@@ -16,7 +16,7 @@ function dsq_qtrans_translate($text){
 	}
 }
 
-function dsq_qtrans_get_blocks($s){
+function dsq_qtrans_get_blocks($text){
 	if(function_exists('qtranxf_get_language_blocks')){
 		return qtranxf_get_language_blocks($text);
 	}else{
